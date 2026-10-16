@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: rgb(91, 218, 218);
+  padding-top: 7px;
+}
+
+/* ===== النافبار ===== */
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(160, 235, 235);
+  z-index: 1000;
+  padding: 0 50px;
+  align-items: center;
+  position: fixed;
+}
+
+.navbar .logo {
+  font-size: 22px;
+  font-weight: 500;
+  color: #4435b4;
+}
+
+.links-nav a {
+  text-decoration: none;
+  color: #4435b4;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.links-nav a:hover {
+  color: rgb(87, 164, 232);
+}
+
+/* ===== Hero ===== */
+.hero {
+  position: relative;
+  background: linear-gradient(135deg, #513edf, #241c94, #fd79a8);
+  color: #ffffff;
+  text-align: center;
+  padding: 80px 20px 120px 20px;
+  margin: 75px 50px;
+}
+
+.hero .badge {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.hero .title {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.hero-desc {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn-hero {
+  background-color: #fd79a8;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.btn-hero:hover {
+  background-color: #e84393;
+}
+
+/* شارة الشحن */
+.shipping-badge {
+  position: absolute;
+  bottom: 30px;
+  background-color: #ffffff;
+  color: #333;
+  padding: 10px 3px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+}
+
+/* ===== قسم المنتجات ===== */
+.products-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #183b46;
+}
+
+.section-subtitle {
+  color: #757e40;
+  margin-bottom: 40px;
+}
+
+/* كارت المنتج */
+.card {
+  background-color: #ffffff;
+  width: 300px;
+  margin: 0 auto 30px auto;
+  border-radius: 19px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.card-img {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* خصم: فوق اليمين */
+.card .discount {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #e84393;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+/* جديد: فوق اليسار */
+.card .naw {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: #3de1be;
+  color: #bc6262;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+/* زرار القلب: تحت اليمين على الصورة */
+.card .btn {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  
+  font-size: 18px;
+}
+
+.card .btn:hover {
+  transform: scale(1.15);
+}
+
+.card .title {
+  font-size: 18px;
+  margin: 15px 0 8px;
+  min-height: 27px;
+}
+
+.rating {
+  color: #636e72;
+  margin-bottom: 10px;
+}
+
+.price-box {
+  margin-bottom: 15px;
+}
+
+.new-price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #e84393;
+  margin-left: 8px;
+}
+
+.old-price {
+  color: #b2bec3;
+  text-decoration: line-through;
+}
+
+.btn-add-cart {
+  background-color: #513edf;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-add-cart:hover {
+  background-color: #241c94;
+}
+/* ==========================================
+   5. بانر العرض
+   ========================================== */
+.offer-banner {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background: linear-gradient(135deg, #2d3436, #6c5ce7);
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.promo-code {
+    background-color: #fd79a8;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btn-offer {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fd79a8;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ==========================================
+   6. زر الواتساب الدائري (position: fixed)
+   ========================================== */
+.whatsapp-fixed-btn {
+    position: fixed;
+    bottom: 25px;
+    left: 25px; /* تثبيت في ركن الشاشة */
+    width: 55px;
+    height: 55px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    font-size: 28px;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    
+}
+
+/* ==========================================
+   7. الفوتر
+   ========================================== */
+.footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+    color: #777;
+    font-size: 14px;
+}
